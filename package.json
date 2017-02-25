@@ -1,0 +1,27 @@
+{
+  "name": "solodilo",
+  "version": "1.0.0",
+  "description": "Solo dilo sera un sitio web donde los usuarios podran realziar confeciones de manera anonima.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0zonet/solodilo.git"
+  },
+  "author": "Bryan Cofre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0zonet/solodilo/issues"
+  },
+  "homepage": "https://github.com/0zonet/solodilo#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3",
+    "mongoose-slug-generator": "^1.0.4"
+  }
+}
